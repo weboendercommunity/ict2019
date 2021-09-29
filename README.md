@@ -13,20 +13,26 @@ make sure you have enough memory for this application, and place it into your ro
 
 ### Clone repo
 you can clone this repo with command:
-``
+
+`git clone https://github.com/weboendercommunity/ict2019.git`
+
 then
-`cd ICT2019`
+
+`cd ict2019`
 
 ### Do Composer Install
 `composer install`
+
 `composer update`
 
 ### Install assets
 `npm install && npm run dev`
+
 if you getting some error just run it again
 
 ### Copy the env 
 `cp .env.example .env`
+
 then update the .env file with your database credentials
 
 ### Migrate all tables and seed master data
@@ -37,4 +43,5 @@ then update the .env file with your database credentials
 
 #### Admin Credentials
 username: admin@mail.com
+
 password: password
